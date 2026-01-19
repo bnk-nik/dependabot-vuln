@@ -8,9 +8,9 @@
   <ItemGroup>
     <!-- Intentionally old/vulnerable version for testing Dependabot -->
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
-  </ItemGroup>
- <!-- New test vuln: old RestSharp version -->
-  <PackageReference Include="RestSharp" Version="106.6.10" />
+
+<!-- New test vuln: RestSharp in a known vulnerable range -->
+  <PackageReference Include="RestSharp" Version="106.11.7" />
 </ItemGroup>
 
 </Project>
