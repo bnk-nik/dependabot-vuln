@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    directory: "/"            # root of the repo, where VulnerableApp.csproj lives
+    schedule:
+      interval: "daily"
