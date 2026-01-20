@@ -13,7 +13,7 @@
   <PackageReference Include="RestSharp" Version="106.11.7" />
 
 <!-- New test: known vulnerable System.Text.Encodings.Web version -->
-  <PackageReference Include="System.Text.Encodings.Web" Version="4.5.0" />
+  <PackageReference Include="System.Text.Encodings.Web" Version="10.0.2" />
 </ItemGroup>
 
 </Project>
