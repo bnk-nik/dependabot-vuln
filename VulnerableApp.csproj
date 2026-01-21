@@ -10,7 +10,7 @@
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
 
 <!-- New test vuln: RestSharp in a known vulnerable range -->
-  <PackageReference Include="RestSharp" Version="106.11.7" />
+  <PackageReference Include="RestSharp" Version="113.1.0" />
 
 <!-- New test: known vulnerable System.Text.Encodings.Web version -->
   <PackageReference Include="System.Text.Encodings.Web" Version="4.5.0" />
